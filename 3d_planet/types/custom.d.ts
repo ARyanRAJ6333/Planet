@@ -1,10 +1,9 @@
-declare module '*.css' {
+declare module "*.css" {
   const content: string;
   export default content;
 }
 
-declare module '*.glsl' {
+declare module "*.glsl" {
   const content: string;
-  export default src;
+  export default content;
 }
-

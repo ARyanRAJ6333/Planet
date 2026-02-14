@@ -6,14 +6,19 @@ body {
 }
 
 body {
-  color: black;
-  background: white;
+  background: radial-gradient(
+    circle at 50% 10%,
+    #0f2a44 0%,
+    #06111f 55%,
+    #02060d 100%
+  );
+  color: #f3f7ff;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -24,8 +29,8 @@ a {
 button {
   cursor: pointer;
   transition: filter 0.3s ease;
+}
 
-  &:hover {
-    filter: brightness(140%);
-  }
+button:hover {
+  filter: brightness(120%);
 }

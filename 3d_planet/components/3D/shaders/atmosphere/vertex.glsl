@@ -11,7 +11,6 @@ varying vec2 vUv;
                 vec3 modelNormal = (modelMatrix * vec4(normal, 0.0)).xyz;
 
                 //Varying
-                vUv = uv;
                 vNormal = modelNormal;
                 vPosition = modelPosition.xyz;
             }
