@@ -92,7 +92,7 @@ const initPlanet = (): {scene: THREE.Scene } => {
                 vec3 normal = normalize(vNormal);
                 vec3 color =  vec3(0.0);
 
-                vec3 dayColor = texture(uDayTexture, vUv).rgb;
+                vec3 dayColor = texture(uDayTexture, vUv).rgb * 2.0;
                 vec3 nightColor = texture(uNightTexture, vUv).rgb;
                 vec2 specularCloudsColor = texture(uSpecularCloudsTexture, vUv).rg;
 
