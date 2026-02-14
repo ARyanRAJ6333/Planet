@@ -55,8 +55,8 @@ const initPlanet = (): PlanetRuntime => {
   nightTexture.anisotropy = maxAnisotropy;
   specularCloudsTexture.anisotropy = maxAnisotropy;
 
-  const atmosphereDayColor = new THREE.Color(0x87ceeb);
-  const atmosphereTwilightColor = new THREE.Color(0xff6b9d);
+  const atmosphereDayColor = new THREE.Color(0x06111f);
+  const atmosphereTwilightColor = new THREE.Color(0x06111f);
 
   const earthGeometry = new THREE.SphereGeometry(2, 64, 64);
   const atmosphereGeometry = new THREE.SphereGeometry(2, 64, 64);

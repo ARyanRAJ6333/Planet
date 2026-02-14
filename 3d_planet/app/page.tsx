@@ -17,8 +17,8 @@ export default function Home() {
     <div className="page">
       <section className="hero-main">
         <div className="content">
-          <p className="eyebrow">Interactive Experience</p>
-          <h1>Welcome To The New World</h1>
+          <p className="eyebrow">Software Engineer</p>
+          <h1>Welcome To The World of ARYAN RAJ</h1>
 
           <p>
             A cinematic 3D planet built with Three.js and React, designed for
