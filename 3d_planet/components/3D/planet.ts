@@ -84,6 +84,8 @@ const initPlanet = (): {scene: THREE.Scene } => {
             uniform sampler2D uNightTexture;
             uniform sampler2D uSpecularCloudsTexture;
             uniform vec3 uSunDirection;
+            uniform vec3 uAtmosphereDayColor;
+            uniform vec3 uAtmosphereTwilightColor;
 
             void main() {
                 vec3 viewDirection = normalize(vPosition - cameraPosition);
